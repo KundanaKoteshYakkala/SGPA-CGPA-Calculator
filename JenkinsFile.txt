@@ -14,8 +14,8 @@ pipeline{
         post{
             success{
                 emailext(
-                    to: 'kundu2004ykk@gmail.com, kundanakotesh@gmail.com'
-                    subject: 'SGPA CGPA Pipeline Success'
+                    to: 'kundu2004ykk@gmail.com, kundanakotesh@gmail.com',
+                    subject: 'SGPA CGPA Pipeline Success',
                     body: 'IP:Port -> 13.234.75.80:8080'
                 )
             }
