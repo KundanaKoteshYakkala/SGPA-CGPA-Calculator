@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		Connection con = null;
 		try {
-			String url = "jdbc:mysql://localhost:3306/SGPA_DB";
+			String url = "jdbc:mysql://localhost:3306/sgpa_db";
 			String user = "kotesh";
 			String pass = "kotesh1234";
 			con = DriverManager.getConnection(url, user, pass);
