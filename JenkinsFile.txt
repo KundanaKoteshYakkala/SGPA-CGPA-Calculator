@@ -6,11 +6,6 @@ pipeline{
                 sh 'mvn package'
             }
         }
-        stage("EXECUTING:"){
-                steps{
-                    sh 'java -jar target/sgcgPRoject-1.0-SNAPSHOT.jar'
-                }
-        }
     }
     post{
         success{
