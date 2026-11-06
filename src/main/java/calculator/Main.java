@@ -11,8 +11,8 @@ public class Main {
 		Connection con = null;
 		try {
 			String url = "jdbc:mysql://localhost:3306/SGPA_DB";
-			String user = "root";
-			String pass = "Kundan@2004";
+			String user = "kotesh";
+			String pass = "kotesh1234";
 			con = DriverManager.getConnection(url, user, pass);
 			con.setAutoCommit(false);
 			
